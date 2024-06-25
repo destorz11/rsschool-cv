@@ -1,5 +1,5 @@
 # ***Anton Sidorov***
-![Personal photo](../rsschool-cv/img/photo.JPG)
+![personal photo](<photo.JPG>)
 ## Contacts
 + **Location:** St. Petersburg, Russia
 + **Email:** destorz11@mail.ru
@@ -17,8 +17,7 @@ Hello. My name is Anton, and I want to become a front-end developer. I am from R
 - Figma, Adobe Photoshop
 ## Code Example
 This is solution to task 5 kyu 'Hashtag generator' from codewars
-``
-function generateHashtag (str) {
+`` function generateHashtag (str) {
   if (!str || !str.trim()) {
     return false; // Return false if input is empty or only whitespace.
   } else {
