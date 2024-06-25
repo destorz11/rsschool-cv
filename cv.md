@@ -1,5 +1,5 @@
 # ***Anton Sidorov***
-![personal photo](<photo.JPG>)
+![personal photo](photo.png)
 ## Contacts
 + **Location:** St. Petersburg, Russia
 + **Email:** destorz11@mail.ru
@@ -17,7 +17,8 @@ Hello. My name is Anton, and I want to become a front-end developer. I am from R
 - Figma, Adobe Photoshop
 ## Code Example
 This is solution to task 5 kyu 'Hashtag generator' from codewars
-`` function generateHashtag (str) {
+``` 
+function generateHashtag (str) {
   if (!str || !str.trim()) {
     return false; // Return false if input is empty or only whitespace.
   } else {
@@ -30,6 +31,12 @@ This is solution to task 5 kyu 'Hashtag generator' from codewars
 
   }
 }
-``
+```
 ## Projects 
 I don't have enough experience to develop my own projects, but as soon as possible i'll fix that;
+## Education
+ + Student of SPbSUT (second year)
+ + HTML Academy basic course (HTML and CSS)
+## Languages
+1. Russian - Native
+2. English - Pre-Intermediate
