@@ -1,7 +1,39 @@
-* {
+*,*::before,*::after {
     box-sizing:border-box;
 }
 body {
     margin: 0;
     padding: 0;
+    background-color: black;
+}
+.page-header__wrapper {
+    width: 1091px;
+    margin: 0 auto;
+}
+.page-header{
+    padding-top: 54px;
+}
+.nav-list {
+    padding: 0;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list__item{
+    list-style-type: none;
+}
+.nav-list__link{
+    color:#fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.page-header::after{
+    content: "";
+    display: block;
+    width: 100%;
+    position: relative;
+    top: 65px;
+    height: 3px;
+    background-color: #fff;
 }
