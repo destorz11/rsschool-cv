@@ -181,6 +181,7 @@ section:not(:first-of-type)::before{
 .contacts__container{
     max-width: 1000px;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 .contacts__title{
     margin-bottom: 45px;
@@ -225,3 +226,4 @@ section:not(:first-of-type)::before{
     left: -15px;
     transform: scale(2);
 }
+/* -------------Contacts section-------------- */
