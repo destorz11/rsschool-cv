@@ -16,18 +16,17 @@ Hello. My name is Anton, and I want to become a front-end developer. I am from R
 
 ## Skills
 
-+ HTML5 & CSS3
-+ JavaScript
-+ SCSS
-+ Git
-+ GULP
-+ Figma, Adobe Photoshop
+- HTML5 & CSS3
+- JavaScript
+- SCSS
+- Git
+- GULP
+- Figma, Adobe Photoshop
 
 ## Code Example
 
 This is solution to task 5 kyu 'Hashtag generator' from codewars
-
-```js
+``` 
 function generateHashtag (str) {
   if (!str || !str.trim()) {
     return false; // Return false if input is empty or only whitespace.
@@ -43,16 +42,16 @@ function generateHashtag (str) {
 }
 ```
 
-## Projects
+## Projects 
 
 I don't have enough experience to develop my own projects, but as soon as possible i'll fix that;
 
 ## Education
 
-+ Student of SPbSUT (second year)
-+ HTML Academy basic course (HTML and CSS)
-
+    + Student of SPbSUT (second year)
+    + HTML Academy basic course (HTML and CSS)
+    
 ## Languages
 
-  1. Russian - Native
-  2. English - Pre-Intermediate
+    1. Russian - Native
+    2. English - Pre-Intermediate
