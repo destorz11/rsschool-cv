@@ -359,3 +359,15 @@ section:not(:first-of-type)::before{
 .list-skill__item{
     list-style-type: none;
 }
+/* -------------Code Example section-------------- */
+.code__container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.code {
+
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 106%;
+    color: #fff;
+}

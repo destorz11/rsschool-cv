@@ -37,7 +37,7 @@
                         <a href="#skills" class="nav-list__link">Skills</a>
                     </li>
                     <li class="nav-list__item">
-                        <a href="#" class="nav-list__link">Code Example</a>
+                        <a href="#code" class="nav-list__link">Code Example</a>
                     </li>
                     <li class="nav-list__item">
                         <a href="#" class="nav-list__link">Languages</a>
@@ -128,6 +128,27 @@
                         <li class="list-skill__item"><img src="./assets/img/CSS3-logo.png" alt="Css3 logo" width="200" height="200"></li>
                         <li class="list-skill__item"><img src="./assets/img/JS-logo.png" alt="JS logo" width="200" height="200"></li>
                     </ul>
+                </div>
+            </section>
+            <section class="code" id="code">
+                <div class="code__container">
+                    <h2 class="code__title section-title">Code Example</h2>
+                    <pre>
+                        <code class="code__example">
+function generateHashtag (str) {
+    if (!str || !str.trim()) {
+    } else {
+        let arr = str.split(' ').filter((elem)=>elem.length>0)
+        .map((elem)=>elem[0].toUpperCase() + elem.slice(1))
+        if (arr.join('').length&lt;140){
+            return '#' + arr.join('')
+        } else {
+            return false
+        }
+    }
+}
+                        </code>
+                    </pre>
                 </div>
             </section>
         </div>
