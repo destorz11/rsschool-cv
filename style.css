@@ -78,6 +78,10 @@ h6 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
+    transition: 0.3s all ease;
+}
+.nav-list__link:hover {
+    color: rgb(193, 96, 0);
 }
 .page-header::after {
     content: "";
@@ -132,6 +136,10 @@ section:not(:first-of-type)::before{
     background-color: #fff;
     border-radius: 50%;
     margin-bottom: 90px;
+    transition: 0.3s ease;
+}
+.introduce__link:hover{
+    background-color: rgb(193, 96, 0);
 }
 .introduce__link span {
     display: block;
