@@ -339,3 +339,23 @@ section:not(:first-of-type)::before{
     color: #fff;
 }
 /* -------------Skills section-------------- */
+.skills__container{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.skills__title{
+    margin-bottom: 45px;
+}
+.list-skill{
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+}
+.list-skill__item{
+    list-style-type: none;
+}
