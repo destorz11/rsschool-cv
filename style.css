@@ -46,14 +46,14 @@ h6 {
 }
 /* -----------Header-------------- */
 .page-header__wrapper {
-    max-width: 1120px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .page-header {
     padding-top: 30px;
 }
 .nav-list {
-    max-width: 1120px;
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0;
     display: flex;
@@ -338,3 +338,4 @@ section:not(:first-of-type)::before{
     line-height: 106%;
     color: #fff;
 }
+/* -------------Skills section-------------- */
