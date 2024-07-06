@@ -1,5 +1,5 @@
 # ***Anton Sidorov***
-![personal photo](photo.png)
+![personal photo](./assets/img/photo.png)
 
 ## Contacts
 + **Location:** St. Petersburg, Russia
