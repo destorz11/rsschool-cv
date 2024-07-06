@@ -277,3 +277,64 @@ section:not(:first-of-type)::before{
     transform: scale(2);
     transition: 0.2s all ease;
 }
+/* -------------Education section-------------- */
+.education__container{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.education__title{
+    margin-bottom: 45px;
+}
+.information{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.information__item{
+    flex: 0 1 33.3%;
+}
+.information__arrow{
+    position: relative;
+    width: 64px;
+    height: 2px;
+    background-color: #fff;
+}
+.information__arrow::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    top: -5px;
+    right: -2px;
+}
+.information__arrow::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+    top: 5px;
+    right: -2px;
+}
+.information__title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 123%;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.information__subtitle{
+    max-width: 320px;
+    font-weight: 275;
+    font-size: 19px;
+    line-height: 106%;
+    color: #fff;
+}
