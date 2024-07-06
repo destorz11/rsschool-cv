@@ -188,7 +188,7 @@ section:not(:first-of-type)::before{
 }
 .list-contacts{
     font-weight: 400;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 106%;
     color: #fff;
     margin: 0;
@@ -219,11 +219,61 @@ section:not(:first-of-type)::before{
     display: block;
     width: 15px;
     height: 15px;
-    background-color: #fff;
+    background-color: rgb(193, 96, 0);
     position: absolute;
     top: 9px;
     border-radius: 5px;
     left: -15px;
     transform: scale(2);
+    transition: 0.2s all ease;
 }
-/* -------------Contacts section-------------- */
+/* -------------Experience section-------------- */
+.experience__container{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.experience__title{
+    margin-bottom: 45px;
+}
+.list-exp{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 106%;
+    color: #fff;
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+.list-exp__item{
+    position: relative;
+    list-style-type: none;
+    padding-left: 15px;
+}
+.list-exp__link{
+    color: #fff;
+    text-decoration: none;
+}
+.list-exp__item::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 9px;
+    border-radius: 5px;
+    left: -15px;
+}
+.list-exp__item:hover::before{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(193, 96, 0);
+    position: absolute;
+    top: 9px;
+    border-radius: 5px;
+    left: -15px;
+    transform: scale(2);
+    transition: 0.2s all ease;
+}
