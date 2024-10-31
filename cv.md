@@ -1,4 +1,5 @@
 # ***Anton Sidorov***
+
 ![personal photo](./assets/img/photo.png)
 
 ## Contacts
@@ -15,18 +16,17 @@ Hello. My name is Anton, and I want to become a front-end developer. I am from R
 
 ## Skills
 
-+ HTML5 & CSS3
-+ JavaScript
-+ SCSS
-+ Git
-+ GULP
-+ Figma, Adobe Photoshop
+- HTML5 & CSS3
+- JavaScript
+- SCSS
+- Git
+- GULP
+- Figma, Adobe Photoshop
 
 ## Code Example
 
 This is solution to task 5 kyu 'Hashtag generator' from codewars
-
-```js
+``` 
 function generateHashtag (str) {
   if (!str || !str.trim()) {
     return false; // Return false if input is empty or only whitespace.
@@ -42,7 +42,7 @@ function generateHashtag (str) {
 }
 ```
 
-## Projects
+## Projects 
 
 + [shelter](https://rolling-scopes-school.github.io/destorz11-JSFEPRESCHOOL2024Q2/shelter/index.html)
 + [cssMemeSlider](https://destorz11.github.io/cssMemeSlider/cssMemeSlider/)
@@ -52,7 +52,11 @@ function generateHashtag (str) {
 + Student of SPbSUT (second year)
 + HTML Academy basic course (HTML and CSS)
 + RSschool JS/FE PRE-SCHOOL 2024Q2 (JAVASCRIPT)
+=======
+    + Student of SPbSUT (second year)
+    + HTML Academy basic course (HTML and CSS)
+    
 ## Languages
 
-  1. Russian - Native
-  2. English - Pre-Intermediate
+    1. Russian - Native
+    2. English - Pre-Intermediate
