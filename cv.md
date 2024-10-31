@@ -44,13 +44,14 @@ function generateHashtag (str) {
 
 ## Projects
 
-I don't have enough experience to develop my own projects, but as soon as possible i'll fix that;
++ [shelter](https://rolling-scopes-school.github.io/destorz11-JSFEPRESCHOOL2024Q2/shelter/index.html)
++ [cssMemeSlider](https://destorz11.github.io/cssMemeSlider/cssMemeSlider/)
 
 ## Education
 
 + Student of SPbSUT (second year)
 + HTML Academy basic course (HTML and CSS)
-
++ RSschool JS/FE PRE-SCHOOL 2024Q2 (JAVASCRIPT)
 ## Languages
 
   1. Russian - Native
