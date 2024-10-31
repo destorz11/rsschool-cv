@@ -52,9 +52,6 @@ function generateHashtag (str) {
 + Student of SPbSUT (second year)
 + HTML Academy basic course (HTML and CSS)
 + RSschool JS/FE PRE-SCHOOL 2024Q2 (JAVASCRIPT)
-=======
-    + Student of SPbSUT (second year)
-    + HTML Academy basic course (HTML and CSS)
     
 ## Languages
 
